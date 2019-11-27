@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
+  font-family: sans-serif;
 }
 
 /* header */
@@ -96,4 +97,95 @@ body {
 .preview_btn_link {
   color: #FFFFFF;
   text-decoration: none;
+}
+
+/* section advantages */
+
+.advantages {
+  height: 20rem;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 2rem 0;
+}
+
+.advantages_item {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.advantages_headline {
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.advantages_describe {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+/* section about us*/
+
+.about_us {
+  height: 20rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 7em 7rem;
+  background-color: #F7F7F7;
+}
+
+.about_us_item {
+  margin-right: 16rem;
+}
+
+.about_us_headline {
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.about_us_describe {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.about_us_image img {
+  width: 28rem;
+}
+
+/* section placerest*/
+
+.placerest {
+  height: 20rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 7em 7rem;
+}
+
+.placerest_item {
+  margin-left: 16rem;
+}
+
+.placerest_headline {
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.placerest_describe {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.placerest_image img {
+  width: 28rem;
 }
