@@ -1,3 +1,3 @@
-# Hexlet Layout Designer Project level 1 - ЖК "Лунное море"
+# Hexlet Layout Designer Project lvl 1 - ЖК "Лунное море"
 
 [moonlitsea.surge.sh](http://moonlitsea.surge.sh/)

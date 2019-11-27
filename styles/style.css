@@ -9,6 +9,31 @@ body {
   font-family: sans-serif;
 }
 
+.headline_h2 {
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.text_describe {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.white_color {
+  color: #FFFFFF;
+}
+
+.dark_bg {
+  background-color: #F7F7F7;
+}
+
+.backlight:focus {
+  outline: none;
+  box-shadow: 0 0 6px #02E2B2;
+}
+
 /* header */
 
 .header {
@@ -73,7 +98,6 @@ body {
   margin: 0 auto;
   font-size: 70px;
   font-weight: 800;
-  color: #FFFFFF;
 }
 
 .tagline {
@@ -81,7 +105,6 @@ body {
   margin-bottom: 2rem;
   font-size: 35px;
   font-weight: 800;
-  color: #FFFFFF;
 }
 
 .preview_btn {
@@ -95,7 +118,6 @@ body {
 }
 
 .preview_btn_link {
-  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -117,18 +139,6 @@ body {
   margin-right: 2rem;
 }
 
-.advantages_headline {
-  margin-bottom: 1.2rem;
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
-.advantages_describe {
-  font-size: 1.2rem;
-  line-height: 1.2;
-  font-weight: 300;
-}
-
 /* section about us*/
 
 .about_us {
@@ -137,23 +147,10 @@ body {
   flex-wrap: nowrap;
   justify-content: space-between;
   padding: 7em 7rem;
-  background-color: #F7F7F7;
 }
 
 .about_us_item {
   margin-right: 16rem;
-}
-
-.about_us_headline {
-  margin-bottom: 1.2rem;
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
-.about_us_describe {
-  font-size: 1.2rem;
-  line-height: 1.2;
-  font-weight: 300;
 }
 
 .about_us_image img {
@@ -174,18 +171,6 @@ body {
   margin-left: 16rem;
 }
 
-.placerest_headline {
-  margin-bottom: 1.2rem;
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
-.placerest_describe {
-  font-size: 1.2rem;
-  line-height: 1.2;
-  font-weight: 300;
-}
-
 .placerest_image img {
   width: 28rem;
 }
@@ -199,19 +184,10 @@ body {
   flex-wrap: nowrap;
   flex-direction: column;
   text-align: center;
-  background-color: #F7F7F7;
-}
-
-.request_headline {
-  margin-bottom: 2rem;
-  font-size: 1.8rem;
-  font-weight: 700;
 }
 
 .request_form {
   width: 40rem;
-  display: flex;
-  flex-direction: column;
   margin: auto;
 }
 
@@ -257,11 +233,6 @@ body {
   border: 1px solid gray;
   border-radius: 0.5rem;
   padding: 0.5rem;
-}
-
-.form_input:focus {
-  outline: none;
-  box-shadow: 0 0 6px #02E2B2;
 }
 
 .form_btn {
@@ -311,29 +282,24 @@ body {
   margin-left: 1.5rem;
   font-size: 1.3rem;
   font-weight: 700;
-  color: #FFFFFF;
 }
 
 .footer_year {
   font-size: 1rem;
   font-weight: 300;
-  color: #FFFFFF;
 }
 
 .footer_headline {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #FFFFFF;
 }
 
 .footer_list {
   font-size: 1rem;
   font-weight: 500;
-  color: #FFFFFF;
 }
 
 .footer_list_link {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   text-decoration: none;
-  color: #FFFFFF;
 }
