@@ -308,8 +308,7 @@ body {
 .footer-item {
   width: 33%;
   height: 7rem;
-  padding: 3rem 3rem;
-  margin: 0 3rem;
+  margin-top: 0.7rem;
 }
 
 .footer-item .logo-title img {
