@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-size: 14px;
   width: 100%;
   font-family: sans-serif;
@@ -36,7 +37,7 @@ body {
 }
 
 .main-container {
-  width: 1000px;
+  width: 980px;
   margin: 0 auto;
 }
 
@@ -83,7 +84,7 @@ body {
 }
 
 .menu {
-  width: 30%;
+  width: 70%;
 }
 
 .menu ul {
@@ -111,12 +112,13 @@ body {
 /* main-preview */
 
 .preview {
-  padding: 5rem;
+  padding: 4rem;
   background: url(../images/banner.png) center no-repeat;
   background-size: cover;
 }
 
 .preview-container {
+  margin-top: 4rem;
   flex-direction: column;
   justify-content: flex-end;
 }
