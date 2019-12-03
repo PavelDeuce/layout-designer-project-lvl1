@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 16px;
   width: 100%;
   font-family: sans-serif;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .main-container {
-  width: 980px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -112,15 +112,14 @@ body {
 /* main-preview */
 
 .preview {
-  padding: 4rem;
+  padding: 6rem;
   background: url(../images/banner.png) center no-repeat;
   background-size: cover;
 }
 
 .preview-container {
-  margin-top: 4rem;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .preview-logo {
