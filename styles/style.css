@@ -1,3 +1,7 @@
+:root {
+  --margin-height: 3.2rem;
+}
+
 html {
   font-size: 16px;
 }
@@ -10,7 +14,7 @@ body {
 }
 
 main {
-  margin-top: 3.1rem;
+  margin-top: var(--margin-height);
 }
 
 /* common properties */
@@ -55,7 +59,6 @@ main {
 }
 
 .main-text {
-  font-size: 0.9rem;
   line-height: 1.5;
 }
 
@@ -68,6 +71,7 @@ main {
 
 .header {
   width: 100%;
+  height: var(--margin-height);
   position: fixed;
   left: 0;
   top: 0;
@@ -273,6 +277,7 @@ main {
   padding: 0.7rem 0.7rem;
   border: 1px solid #02E2B2;
   border-radius: 0.5rem;
+  cursor: pointer;
   color: #02E2B2;
   background: 0;
   font-size: 1rem;
