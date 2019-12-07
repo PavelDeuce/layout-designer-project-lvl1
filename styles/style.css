@@ -1,5 +1,5 @@
 :root {
-  --margin-height: 3.2rem;
+  --header-height: 3.2rem;
 }
 
 html {
@@ -13,8 +13,12 @@ body {
   font-family: sans-serif;
 }
 
+section {
+  padding: 3rem;
+}
+
 main {
-  margin-top: var(--margin-height);
+  margin-top: var(--header-height);
 }
 
 /* common properties */
@@ -71,7 +75,7 @@ main {
 
 .header {
   width: 100%;
-  height: var(--margin-height);
+  height: var(--header-height);
   position: fixed;
   left: 0;
   top: 0;
@@ -123,7 +127,6 @@ main {
 /* main-preview */
 
 .preview {
-  padding: 3rem;
   background: url(../images/banner.png) center no-repeat;
   background-size: cover;
 }
@@ -178,7 +181,7 @@ main {
 
 .advantages-item {
   width: 33.33%;
-  padding: 3rem;
+  margin-right: 1rem;
 }
 
 /* main-about-us */
@@ -189,8 +192,7 @@ main {
 }
 
 .about-us-image {
-  width: 40%;
-  padding: 3rem;
+  width: 30%;
 }
 
 .about-us-image img {
@@ -206,8 +208,7 @@ main {
 }
 
 .rest-place-image {
-  width: 40%;
-  padding: 3rem;
+  width: 30%;
 }
 
 .rest-place-image img {
