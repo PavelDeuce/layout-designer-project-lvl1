@@ -118,7 +118,7 @@ main {
   width: 70%;
 }
 
-.menu ul {
+.menu-list {
   justify-content: flex-end;
   list-style: none;
 }
