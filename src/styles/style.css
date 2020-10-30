@@ -7,8 +7,9 @@ html {
 }
 
 body {
-  margin: 0;
   width: 100%;
+  margin: 0;
+
   font-family: sans-serif;
 }
 
@@ -42,7 +43,7 @@ main {
   justify-content: center;
 }
 
-.jc-spacebetween {
+.jc-space-between {
   justify-content: space-between;
 }
 
@@ -51,7 +52,7 @@ main {
 }
 
 .white-text {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .dark-text {
@@ -59,11 +60,11 @@ main {
 }
 
 .dark-bg {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .white-bg {
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .fw-700 {
@@ -77,8 +78,9 @@ main {
 
 .main-headline {
   margin-bottom: 1.2rem;
-  font-size: 1.5rem;
+
   font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .main-text {
@@ -87,17 +89,18 @@ main {
 
 .backlight:focus {
   outline: none;
-  box-shadow: 0 0 6px #02E2B2;
+  box-shadow: 0 0 6px #02e2b2;
 }
 
 /* header */
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
   width: 100%;
   height: var(--header-height);
-  position: fixed;
-  left: 0;
-  top: 0;
 }
 
 .header-container {
@@ -110,8 +113,9 @@ main {
 
 .title-link {
   margin-left: 1rem;
-  text-decoration: none;
+
   font-size: 1.1rem;
+  text-decoration: none;
 }
 
 .menu {
@@ -120,19 +124,21 @@ main {
 
 .menu-list {
   justify-content: flex-end;
+
   list-style: none;
 }
 
 .menu-link {
   margin-left: 2.5rem;
-  text-decoration: none;
-  font-size: 1rem;
+
   font-weight: 600;
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size .3s;
+  font-size: 1rem;
+  text-decoration: none;
+
+  background: linear-gradient(currentColor, currentColor) 0 100% no-repeat;
+  background-size: 0 2px;
+
+  transition: background-size 0.3s;
 }
 
 .menu-link:hover {
@@ -156,22 +162,26 @@ main {
 
 .headline {
   margin-bottom: 0;
+
   font-size: 3rem;
 }
 
 .tagline {
   margin-bottom: 3rem;
+
   font-size: 1.5rem;
 }
 
 .preview-btn {
   display: inline-block;
-  background: 0;
   padding: 1rem 1.5rem;
-  text-decoration: none;
-  border: 2px solid #FFFFFF;
-  border-radius: 0.7rem;
+
   font-size: 1.2rem;
+  text-decoration: none;
+
+  background: 0;
+  border: 2px solid #fff;
+  border-radius: 0.7rem;
 }
 
 .preview-btn:hover {
@@ -198,8 +208,9 @@ main {
 
 .request-container {
   flex-direction: column;
-  text-align: center;
   padding: 1.1rem 0;
+
+  text-align: center;
 }
 
 .request-form {
@@ -207,14 +218,15 @@ main {
 }
 
 .form-fieldset {
-  border: 2px solid #02E2B2;
-  padding: 2rem;
   margin-bottom: 2rem;
+  padding: 2rem;
+
+  border: 2px solid #02e2b2;
 }
 
 .form-legend {
+  color: #02e2b2;
   font-size: 1.2rem;
-  color: #02E2B2;
   text-align: left;
 }
 
@@ -223,23 +235,24 @@ main {
 }
 
 .form-label {
-  text-align: left;
   font-size: 1rem;
+  text-align: left;
 }
 
 .form-select {
   width: 40%;
-  border-radius: 1rem;
-  border: 1px solid #9ACEEB;
-  border-radius: 1rem;
   padding: 0.6rem;
+
+  border: 1px solid #9aceeb;
+  border-radius: 1rem;
 }
 
 .form-input {
   width: 40%;
-  border: 1px solid #9ACEEB;
-  border-radius: 1rem;
   padding: 0.5rem;
+
+  border: 1px solid #9aceeb;
+  border-radius: 1rem;
 }
 
 .form-btn {
@@ -249,12 +262,14 @@ main {
 .request-button {
   display: inline-block;
   padding: 0.7rem 0.7rem;
-  border: 1px solid #02E2B2;
+
+  color: #02e2b2;
+  font-size: 1rem;
+
+  background: 0;
+  border: 1px solid #02e2b2;
   border-radius: 0.5rem;
   cursor: pointer;
-  color: #02E2B2;
-  background: 0;
-  font-size: 1rem;
 }
 
 .request-button:hover {
@@ -267,6 +282,7 @@ main {
 
 .footer {
   width: 100%;
+
   background-color: #323447;
 }
 
@@ -281,5 +297,3 @@ main {
 .footer-link {
   text-decoration: none;
 }
-
-/* adaptive */

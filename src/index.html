@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>ЖК «Лунное море» by PavelDeuce</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+
+  <body>
+    <header class="header white-bg">
+      <div class="header-container d-flex i-center jc-space-between">
+        <div class="d-flex i-center">
+          <img class="logo-header" src="images/logo.svg" alt="logo">
+          <a class="title-link dark-text fw-700" href="index.html">Лунное море</a>
+        </div>
+          <nav>
+            <ul class="menu-list d-flex i-center">
+              <li><a href="#advantages" class="menu-link dark-text">Преимущества</a></li>
+              <li><a href="#about-us" class="menu-link dark-text">О ЖК</a></li>
+              <li><a href="#rest-place" class="menu-link dark-text">Места для отдыха</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    <main>
+      <section class="preview">
+        <div class="preview-container d-flex i-center jc-center">
+          <div>
+            <img class="preview-logo" src="images/logo.svg" alt="logo">
+          </div>
+          <h1 class="headline white-text fw-700">ЖК «Лунное море»</h1>
+          <p class="tagline white-text fw-700">Место, откуда не хочется улетать</p>
+          <a class="preview-btn white-text fw-700" href="#request">Забронировать</a>
+        </div>
+      </section>
+
+      <section id="advantages">
+        <div class="main-container d-flex jc-space-between fw-nowrap">
+          <div class="w-30">
+            <h2 class="main-headline">Уникальный вид</h2>
+            <p class="main-text">Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
+          </div>
+          <div class="w-30">
+            <h2 class="main-headline">Инфраструктура</h2>
+            <p class="main-text">Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
+          </div>
+          <div class="w-30">
+            <h2 class="main-headline">Близость к Москве</h2>
+            <p class="main-text">При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="dark-bg" id="about-us">
+        <div class="main-container d-flex jc-space-between fw-nowrap">
+          <div class="w-60">
+            <h2 class="main-headline">О ЖК «Лунное море»</h2>
+            <p class="main-text">Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
+            <p class="main-text">Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
+          </div>
+          <div class="d-flex">
+            <img class="about-us-image" src="images/moon-1.jpg" alt="moon-wallpaper-1">
+          </div>
+        </div>
+      </section>
+
+      <section id="rest-place">
+        <div class="main-container d-flex jc-space-between fw-nowrap">
+          <div class="d-flex">
+            <img class="rest-place-image" src="images/moon-2.jpg" alt="moon-wallpaper-2">
+          </div>
+          <div class="w-60">
+            <h2 class="main-headline">Места для отдыха</h2>
+            <p class="main-text">Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
+            <p class="main-text">Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
+          </div>
+        </div>
+      </section>
+        
+      <section class="dark-bg" id="request">
+        <div class="main-container">
+          <div class="request-container d-flex i-center jc-center">
+            <h2 class="main-headline">Оставьте заявку сегодня!</h2>
+            <form class="request-form d-flex w-60" action="/" method="POST">
+              <fieldset class="form-fieldset">
+                <legend class="form-legend fw-700">Параметры квартиры</legend>
+
+                <div class="form-item d-flex i-center">
+                  <label class="form-label fw-700 w-60" for="count-rooms">Количество комнат:</label>
+                  <select class="form-select backlight white-bg" id="count-rooms">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+
+                <div class="form-item d-flex i-center">
+                  <label class="form-label fw-700 w-60" for="decoration-rooms">Отделка:</label>
+                  <select class="form-select backlight white-bg" id="decoration-rooms">
+                    <option value="Без отделки">Без отделки</option>
+                    <option value="Стандартная отделка">Стандартная отделка</option>
+                    <option value="Элитная отделка">Элитная отделка</option>
+                  </select>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-fieldset">
+                <legend class="form-legend fw-700">Контактная информация</legend>
+
+                <div class="form-item d-flex i-center">
+                  <label class="form-label fw-700 w-60" for="user-name">Имя:</label>
+                  <input class="form-input backlight white-bg" type="text" id="user-name" placeholder="">
+                </div>
+
+                <div class="form-item d-flex i-center">
+                  <label class="form-label fw-700 w-60" for="user-phone">Телефон:</label>
+                  <input class="form-input backlight white-bg" type="text" id="user-phone" placeholder="">
+                </div>
+
+                <div class="form-item d-flex i-center">
+                  <label class="form-label fw-700 w-60" for="user-email">E-mail:</label>
+                  <input class="form-input backlight white-bg" type="email" id="user-email" placeholder="">
+                </div>
+              </fieldset>
+
+              <div class="form-btn">
+                <button class="request-button w-30 fw-700" type="submit">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="main-container">
+        <div class="d-flex i-center jc-space-between">
+          <div class="w-30">
+            <div>
+              <img class="footer-logo" src="images/logo.svg" alt="logo">
+              <a class="title-link white-text fw-700" href="index.html">Лунное море</a>
+            </div>
+            <div>
+              <p class="white-text">&copy; 2032 год</p>
+            </div>
+          </div>
+
+          <div class="w-30">
+            <h3 class="footer-headline white-text">Проектная документация</h3>
+            <ul class="white-text">
+              <li><a class="footer-link white-text" href="#">Скачать</a></li>
+              <li><a class="footer-link white-text" href="#">Посмотреть на сайте</a></li>
+            </ul>
+          </div>
+
+          <div class="w-30">
+            <h3 class="footer-headline white-text fw-700">О застройщике</h3>
+            <ul class="white-text">
+              <li><a class="footer-link white-text" href="#">Отзывы</a></li>
+              <li><a class="footer-link white-text" href="#">Сайт компании</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

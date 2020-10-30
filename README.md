@@ -1,3 +1,16 @@
-# Hexlet Layout Designer Project lvl 1 - ЖК "Лунное море"
+# Moonlit Sea Layout
 
-[moonlitsea.surge.sh](http://moonlitsea.surge.sh/)
+[link - ЖК "Лунное море"](http://moonlitsea.surge.sh/)
+
+## Setup
+
+```sh
+$ make install
+```
+
+## Run lint
+
+```sh
+$ make lint
+```
+
