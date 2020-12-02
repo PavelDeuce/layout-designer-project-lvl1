@@ -1,0 +1,13 @@
+.link {
+  background: linear-gradient(currentColor, currentColor) 0 100% no-repeat;
+  background-size: 0 2px;
+
+  transition: background-size 0.3s;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--green);
+
+  background-size: 100% 2px;
+}

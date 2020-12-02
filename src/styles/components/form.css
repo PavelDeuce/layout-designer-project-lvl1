@@ -1,0 +1,34 @@
+.form-item {
+  display: flex;
+  align-items: center;
+  margin: 0.7rem 0;
+
+  font-weight: bold;
+}
+
+.form-fieldset {
+  margin-bottom: 2rem;
+  padding: 2rem;
+
+  border: 2px solid var(--green);
+}
+
+.form-legend {
+  color: var(--green);
+  font-size: 1.2rem;
+}
+
+.form-field {
+  width: 40%;
+  padding: 0.5rem;
+
+  background-color: var(--white);
+  border: 1px solid var(--light-blue);
+  border-radius: 10px;
+}
+
+.form-field:focus,
+.form-field:hover {
+  outline: none;
+  box-shadow: 0 0 6px var(--green);
+}

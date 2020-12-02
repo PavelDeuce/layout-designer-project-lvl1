@@ -1,107 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap');
 @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 
 @import url('variables.css');
 @import url('default.css');
 @import url('atomic.css');
+@import url('header.css');
+@import url('components/btn.css');
+@import url('components/form.css');
+@import url('components/link.css');
 
-.main-container {
-  width: 1000px;
+.content-container {
+  max-width: 1000px;
   margin: 0 auto;
-  padding: var(--header-height) 0;
+  padding: 5rem 0;
 }
 
-.main-text {
-  line-height: 1.5;
+.columns-3 > * {
+  width: 30%;
 }
 
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 45px;
+.main-section {
+  padding: 3rem;
 
-  padding: 0 10px;
-
-  font-weight: bold;
-  font-size: 1em;
-  text-decoration: none;
-
-  background: none;
-  border: 1px solid;
-  cursor: pointer;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/banner.png) center no-repeat;
 }
 
-.btn:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+.logo-small {
+  width: 2rem;
+  height: 2rem;
 }
 
-.btn-green {
-  color: var(--green);
-
-  border-color: var(--green);
+.logo-big {
+  height: 12rem;
 }
 
-.btn-light {
-  color: var(--light);
-
-  border-color: var(--light);
-}
-
-.header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-
-  height: var(--header-height);
-
-  padding: 0 2rem;
-}
-
-.title-link {
+.logo-name {
   margin-left: 1rem;
 
+  font-weight: bold;
   font-size: 1.1rem;
 }
 
-.menu-link {
-  margin-left: 2.5rem;
-
-  background: linear-gradient(currentColor, currentColor) 0 100% no-repeat;
-  background-size: 0 2px;
-
-  transition: background-size 0.3s;
-}
-
-.menu-link:hover {
-  color: var(--green);
-
-  background-size: 100% 2px;
-}
-
-.tagline {
+.subtitle {
   margin-bottom: 3rem;
 
+  font-weight: bold;
   font-size: 1.5rem;
 }
 
-.request-container {
-  padding: 1.1rem 0;
-}
-
-.form-item {
-  margin: 0.7rem 0;
-}
-
-.form-field {
-  padding: 0.5rem;
-
-  border: 1px solid var(--light-blue);
-}
-
-.form-field:focus {
-  outline: none;
-  box-shadow: 0 0 6px var(--green);
+.footer {
+  background-color: var(--dark);
 }
