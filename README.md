@@ -1,6 +1,6 @@
-# Moonlit Sea Layout
+# moonlit-sea-layout
 
-[link - ЖК "Лунное море"](http://moonlitsea.surge.sh/)
+[Link - ЖК "Лунное море"](http://moonlitsea.surge.sh/)
 
 ## Setup
 
@@ -14,3 +14,8 @@ $ make install
 $ make lint
 ```
 
+## Deploy
+
+```sh
+$ make deploy
+```
