@@ -1,0 +1,91 @@
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.max-width-100 {
+  max-width: 100%;
+}
+
+.h-2rem {
+  height: 2rem;
+}
+
+.h-12rem {
+  height: 12rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.i-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.js-flex-end {
+  justify-content: flex-end;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.fw-nowrap {
+  flex-wrap: nowrap;
+}
+
+.white-text {
+  color: var(--white);
+}
+
+.dark-text {
+  color: var(--dark-text);
+}
+
+.light-bg {
+  background-color: var(--light);
+}
+
+.dark-bg {
+  background-color: var(--dark);
+}
+
+.white-bg {
+  background-color: var(--white);
+}
+
+.moon-bg {
+  background: url(../images/banner.png) center no-repeat;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.radius-10px {
+  border-radius: 10px;
+}

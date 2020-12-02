@@ -1,0 +1,51 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: var(--header-height) 0 0;
+}
+
+h1 {
+  margin-bottom: 0;
+
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 1.2rem;
+
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  font-size: 1rem;
+}
+
+legend {
+  color: var(--green);
+  font-size: 1.2rem;
+}
+
+fieldset {
+  margin-bottom: 2rem;
+  padding: 2rem;
+
+  border: 2px solid var(--green);
+}
+
+section {
+  padding: 3rem;
+}
