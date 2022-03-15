@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 45px;
+  min-height: 60px;
 
   padding: 0 10px;
 
@@ -13,6 +13,15 @@
   background: none;
   border: 1px solid;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-icon {
+  min-width: 32px;
+  min-height: 20px;
+  padding: 0;
+
+  border: 0;
   cursor: pointer;
 }
 
@@ -33,4 +42,9 @@
   color: var(--light);
 
   border-color: var(--light);
+}
+
+.counter-btn {
+  background: transparent url('./../../images/arrow.svg') center center;
+  background-size: cover;
 }

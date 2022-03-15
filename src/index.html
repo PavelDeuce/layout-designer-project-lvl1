@@ -1,57 +1,265 @@
 <!DOCTYPE html>
-
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:title" content="ЖК Лунное море" />
-    <meta property="og:description" content="Место, откуда не хочется улетать" />
+    <meta
+      property="og:description"
+      content="Место, откуда не хочется улетать"
+    />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="moonlitsea.surge.sh" />
-    <meta property="og:image" content="http://moonlitsea.surge.sh/images/moon-2.jpg" />
+    <meta
+      property="og:image"
+      content="http://moonlitsea.surge.sh/images/moon-2.jpg"
+    />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/index.js" type="module"></script>
     <title>ЖК «Лунное море» by PavelDeuce</title>
   </head>
 
   <body>
-    <header class="header d-flex i-center jc-space-between light-bg">
-      <div class="d-flex i-center">
-        <img class="logo-small" src="images/logo.svg" alt="Логотип ЖК Лунное море">
-        <a class="logo-name link" href="index.html">Лунное море</a>
+    <header class="header white-text">
+      <div class="header-container d-flex i-center jc-space-between">
+        <div class="d-flex i-center">
+          <img
+            class="logo-small"
+            src="images/logo.svg"
+            alt="Логотип ЖК Лунное море"
+          />
+          <a class="logo-name link" href="index.html">Лунное море</a>
+        </div>
+        <nav class="header-navigation d-flex i-center">
+          <ul
+            class="navigation-list d-flex i-center jc-space-between list-style-none"
+          >
+            <li><a href="#advantages" class="link">Преимущества</a></li>
+            <li><a href="#floor-and-flat" class="link">Выбор квартиры</a></li>
+            <li><a href="#about-us" class="link">О ЖК</a></li>
+            <li><a href="#rest-place" class="link">Места для отдыха</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav class="header-navigation d-flex i-center">
-        <ul class="navigation-list d-flex i-center jc-space-between">
-          <li><a href="#advantages" class="link">Преимущества</a></li>
-          <li><a href="#about-us" class="link">О ЖК</a></li>
-          <li><a href="#rest-place" class="link">Места для отдыха</a></li>
-        </ul>
-      </nav>
     </header>
 
     <main>
       <section class="main-section">
         <div class="d-flex i-center jc-center fd-column white-text">
-          <img class="logo-big" src="images/logo.svg" alt="Логотип ЖК Лунное море">
+          <img
+            class="logo-big"
+            src="images/logo.svg"
+            alt="Логотип ЖК Лунное море"
+          />
           <h1>ЖК «Лунное море»</h1>
           <p class="subtitle">Место, откуда не хочется улетать</p>
           <a class="btn btn-light" href="#request">Забронировать</a>
         </div>
       </section>
 
-      <section id="advantages" class="white-bg">
+      <section id="advantages" class="light-bg">
         <div class="content-container columns-3 d-flex jc-space-between">
           <div>
             <h2>Уникальный вид</h2>
-            <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
+            <p>
+              Вид на космос из вашего окна. Мы построили дома с большими окнами,
+              чтобы вы могли наслаждаться метеоритными потоками.
+            </p>
           </div>
           <div>
             <h2>Инфраструктура</h2>
-            <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
+            <p>
+              Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в
+              200 км. от посёлка находится кольцо гор Кордильеры, на которых вы
+              сможете провести незабываемые выходные.
+            </p>
           </div>
           <div>
             <h2>Близость к Москве</h2>
-            <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
+            <p>
+              При небольшой цене мы располагаемся близко к МКАД. Всего 384 000
+              километров и вы в самом сердце России.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="floor-and-flat" class="white-bg">
+        <div class="content-container d-flex jc-space-between">
+          <div>
+            <svg
+              class="high-rise-building"
+              width="734"
+              height="640"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <rect width="734" height="640" fill="url(#floor-pattern)" />
+              <defs>
+                <pattern
+                  id="floor-pattern"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    xlink:href="#house-image"
+                    transform="translate(-0.00408719) scale(0.0013624 0.0015625)"
+                  />
+                </pattern>
+                <image
+                  id="house-image"
+                  width="740"
+                  height="640"
+                  xlink:href="images/high-rise-building.jpg"
+                />
+              </defs>
+              <path
+                data-floor="2"
+                class="floor"
+                d="M222 534L442.8 542L512 528.3V550L443.5 569.7L222 558.7V534Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="3"
+                class="floor"
+                d="M223 533V508L443.3 511.3L513 508V528L443.7 541L223 533Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="4"
+                class="floor"
+                d="M223 507V482H444H513V505L445 512L223 507Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="5"
+                class="floor"
+                d="M223 483V458L444.3 454.3L512 461V483H444"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="6"
+                class="floor"
+                d="M223 457V431L444.5 427.7L513 438.7V460L444 453.3L223 457Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="7"
+                class="floor"
+                d="M222 430V406.3L443 394L514 417V438.3L443 426L222 430Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="8"
+                class="floor"
+                d="M222 408V383L444.2 366.7L514 395.3V416L443.7 394.3L222 408Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="9"
+                class="floor"
+                d="M222 383V358L444.5 337.7L514 374.3V395L442 366.3L222 383Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="10"
+                class="floor current-floor"
+                d="M222 357V333L445 308.3L514 352.3V374L444.7 336L222 357Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="11"
+                class="floor"
+                d="M222 332V308L444.5 279.3L514 330.3V351L443.7 308.7L222 332Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="12"
+                class="floor"
+                d="M221 308V284L443.3 251L514 310.3V330L444 279.3L221 308Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="13"
+                class="floor"
+                d="M222 283V259L443.2 224L513 288V309L444.3 250.7L222 283Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="14"
+                class="floor"
+                d="M222 259V234L444.3 196L513 266.3V287L444 223L222 259Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="15"
+                class="floor"
+                d="M222 233V208L442.8 164.3L513 243.3V266L444 192.7L222 233Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="16"
+                class="floor"
+                d="M223 209V184L443 136L513 221V244L442.3 164.7L223 209Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="17"
+                class="floor"
+                d="M222 184V159L441.8 107L513 199.3V222L443.3 135.7L222 184Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+              <path
+                data-floor="18"
+                class="floor"
+                d="M222 159V133L444 76.3L513 178V199L443.7 107.3L222 159Z"
+                fill="#02e2b2"
+                fill-opacity="0.75"
+              />
+            </svg>
+          </div>
+
+          <div
+            class="choice-floor-counter d-flex fd-column jc-space-between i-center"
+          >
+            <h2 class="w-60">Выберите желаемый этаж</h2>
+            <div class="d-flex i-center fd-column">
+              <button
+                class="btn-icon counter-btn floor-counter-btn-top"
+                data-direction="top"
+              ></button>
+              <span class="floor-counter">10</span>
+              <button
+                class="btn-icon counter-btn floor-counter-btn-bottom"
+                data-direction="bottom"
+              ></button>
+            </div>
+            <button
+              class="btn btn-green w-60 show-floor-btn modal-open"
+              data-modal-id="flat-modal"
+              type="button"
+            >
+              Смотреть квартиры на этаже
+            </button>
           </div>
         </div>
       </section>
@@ -60,20 +268,47 @@
         <div class="content-container d-flex jc-space-between">
           <div class="w-60">
             <h2>О ЖК «Лунное море»</h2>
-            <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
-            <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
+            <p>
+              Все чаще жители Москвы предпочитают загородный дом городской
+              квартире, к тому же связь с мегаполисом не теряется – современные
+              скоростные трассы позволяют без труда добираться до столицы и
+              обратно.
+            </p>
+            <hr />
+            <p>
+              Мы построили наши дома на самом близком к Солнцу спутнике, всего в
+              380 тысяч километров от Земли.
+            </p>
           </div>
-          <img class="w-30" src="images/moon-1.jpg" alt="Изображение с луной 1">
+          <img
+            class="w-30 border-radius-15 cursor-pointer modal-open"
+            src="images/moon-1.jpg"
+            alt="Изображение с луной 1"
+            data-modal-id="about-image"
+          />
         </div>
       </section>
 
       <section id="rest-place" class="white-bg">
         <div class="content-container d-flex jc-space-between">
-          <img class="w-30" src="images/moon-2.jpg" alt="Изображение с луной 2">
+          <img
+            class="w-30 border-radius-15 cursor-pointer modal-open"
+            src="images/moon-2.jpg"
+            alt="Изображение с луной 2"
+            data-modal-id="rest-place-image"
+          />
           <div class="w-60">
             <h2>Места для отдыха</h2>
-            <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
-            <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
+            <p>
+              Луна обладает всеми условиями для комфортного отдыха от большого
+              города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее
+              кольцо гор всего в 200 километров от вашей квартиры.
+            </p>
+            <hr />
+            <p>
+              Дома располагаются в новом районе «Лунные моря». При необходимости
+              есть автобусы до района «Лунный материк».
+            </p>
           </div>
         </div>
       </section>
@@ -86,7 +321,9 @@
               <fieldset class="form-fieldset">
                 <legend class="form-legend">Параметры квартиры</legend>
                 <div class="form-item">
-                  <label class="w-60" for="count-rooms">Количество комнат:</label>
+                  <label class="w-60" for="count-rooms"
+                    >Количество комнат:</label
+                  >
                   <select class="form-field" id="count-rooms">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -98,7 +335,9 @@
                   <label class="w-60" for="decoration-rooms">Отделка:</label>
                   <select class="form-field" id="decoration-rooms">
                     <option value="Без отделки">Без отделки</option>
-                    <option value="Стандартная отделка">Стандартная отделка</option>
+                    <option value="Стандартная отделка">
+                      Стандартная отделка
+                    </option>
                     <option value="Элитная отделка">Элитная отделка</option>
                   </select>
                 </div>
@@ -108,19 +347,36 @@
                 <legend class="form-legend">Контактная информация</legend>
                 <div class="form-item">
                   <label class="w-60" for="user-name">Имя:</label>
-                  <input class="form-field" type="text" id="user-name" placeholder="" />
+                  <input
+                    class="form-field"
+                    type="text"
+                    id="user-name"
+                    placeholder="Введите имя"
+                  />
                 </div>
                 <div class="form-item">
                   <label class="w-60" for="user-phone">Телефон:</label>
-                  <input class="form-field" type="text" id="user-phone" placeholder="" />
+                  <input
+                    class="form-field"
+                    type="text"
+                    id="user-phone"
+                    placeholder="Введите телефон"
+                  />
                 </div>
                 <div class="form-item">
                   <label class="w-60" for="user-email">E-mail:</label>
-                  <input class="form-field" type="email" id="user-email" placeholder="" />
+                  <input
+                    class="form-field"
+                    type="email"
+                    id="user-email"
+                    placeholder="Введите E-mail"
+                  />
                 </div>
               </fieldset>
 
-              <button class="btn btn-green w-30" type="submit">Отправить</button>
+              <button class="btn btn-green w-30" type="submit">
+                Отправить
+              </button>
             </form>
           </div>
         </div>
@@ -128,12 +384,26 @@
     </main>
 
     <footer class="footer">
-      <div class="content-container columns-3 d-flex i-center jc-space-between white-text">
+      <div
+        class="content-container d-flex i-center jc-space-between white-text"
+      >
         <div>
           <div class="d-flex i-center">
-            <img class="logo-small" src="images/logo.svg" alt="Логотип ЖК Лунное море">
+            <img
+              class="logo-small"
+              src="images/logo.svg"
+              alt="Логотип ЖК Лунное море"
+            />
             <a class="logo-name link" href="index.html">Лунное море</a>
           </div>
+          <address>
+            <p>
+              <a class="link" href="mailto:deucela.pavel@gmail.com"
+                >deucela.pavel@gmail.com</a
+              >
+            </p>
+            <p><a class="link" href="tel:555-555-5555">555-555-5555</a></p>
+          </address>
           <p>&copy; 2032 год</p>
         </div>
         <div>
@@ -152,5 +422,206 @@
         </div>
       </div>
     </footer>
+
+    <div id="flat-modal" class="modal">
+      <div class="modal-dialog">
+        <button data-modal-id="flat-modal" class="modal-close btn btn-icon">
+          <img src="images/close.svg" alt="Иконка закрытия модального окна" />
+        </button>
+
+        <div class="modal-image">
+          <h3 class="modal-title">
+            Этаж <span class="modal-counter counter floor-counter">10</span>
+          </h3>
+
+          <svg
+            width="433"
+            height="408"
+            viewBox="0 0 433 408"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect width="433" height="408" fill="url(#pattern1)" />
+            <defs>
+              <pattern
+                id="pattern1"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use
+                  xlink:href="#image1"
+                  transform="scale(0.00230947 0.00245098)"
+                />
+              </pattern>
+              <image
+                id="image1"
+                width="433"
+                height="408"
+                xlink:href="images/floor.png"
+              />
+            </defs>
+            <path
+              data-flat="1"
+              d="M46.5 81V115.5H125V144.5H164V131H184.5V32.5H93V16H28V81H46.5Z"
+              fill="#02e2b2"
+              fill-opacity="0.75"
+              class="flat"
+            />
+            <path
+              data-flat="42"
+              d="M124.729 116H46V198H167V145.178H124.729V116Z"
+              fill="#02e2b2"
+              fill-opacity="0.75"
+              class="flat"
+            />
+            <path
+              data-flat="43"
+              d="M119.5 273.5H46V198H167V250.822H119.5V273.5Z"
+              fill="#02e2b2"
+              fill-opacity="0.75"
+              class="flat"
+            />
+            <path
+              data-flat="44"
+              d="M121 252H166.5V309H139.5V376H95V393H30V328.5H47V273.5H121V252Z"
+              fill="#02e2b2"
+              fill-opacity="0.75"
+              class="flat"
+            />
+            <path
+              data-flat="45"
+              d="M217 394.5V264H187.5V273.5H167.5V310.5H140.5V375H175.5V394.5H217Z"
+              fill="#02e2b2"
+              fill-opacity="0.75"
+              class="flat"
+            />
+            <path
+              data-flat="46"
+              d="M218 394.5V264H247.5V273.5H267.5V310.5H294.5V375H259.5V394.5H218Z"
+              fill="#02e2b2"
+              fill-opacity="0.75"
+              class="flat"
+            />
+            <path
+              data-flat="47"
+              d="M314 253H268.5V309H295.5V376H340V393H405V328.5H388V268.5H314V253Z"
+              fill="#02e2b2"
+              fill-opacity="0.75"
+              class="flat"
+            />
+            <path
+              data-flat="48"
+              d="M314.192 252.662H268V200H367.916V204.602H388V268H314.192V252.662Z"
+              fill="#02e2b2"
+              fill-opacity="0.75"
+              class="flat"
+            />
+            <path
+              data-flat="49"
+              d="M314 148.5H268V200H367.5V205H387.5V141H314V148.5Z"
+              fill="#02e2b2"
+              fill-opacity="0.75"
+              class="flat"
+            />
+            <path
+              data-flat="50"
+              d="M388 81V141H314V148H267.5V131H247V32.5H338.5V16H405V81H388Z"
+              fill="#02e2b2"
+              fill-opacity="0.75"
+              class="flat"
+            />
+          </svg>
+        </div>
+
+        <div class="modal-info">
+          <h3>Выберите квартиру</h3>
+
+          <ul class="flat-list list-style-none">
+            <li class="flat-item">
+              <a href="#" class="flat-link link" data-flat="1"
+                >#1 - 2 комн. 64.5 м.<sup>2</sup></a
+              >
+            </li>
+            <li class="flat-item">
+              <a href="#" class="flat-link link" data-flat="42"
+                >кв. 42, 1 комн. 38.9 кв. м.</a
+              >
+            </li>
+            <li class="flat-item">
+              <a href="#" class="flat-link link" data-flat="43"
+                >кв. 43, 1 комн. 35.9 кв. м.</a
+              >
+            </li>
+            <li class="flat-item">
+              <a href="#" class="flat-link link" data-flat="44"
+                >кв. 44, 2 комн. 56 кв. м.</a
+              >
+            </li>
+            <li class="flat-item">
+              <a href="#" class="flat-link link" data-flat="45"
+                >кв. 45, 1 комн. 35.8 кв. м.</a
+              >
+            </li>
+            <li class="flat-item">
+              <a href="#" class="flat-link link" data-flat="46"
+                >кв. 46, 1 комн. 35.8 кв. м.</a
+              >
+            </li>
+            <li class="flat-item">
+              <a href="#" class="flat-link link" data-flat="47"
+                >кв. 47, 2 комн. 58.4 кв. м.</a
+              >
+            </li>
+            <li class="flat-item">
+              <a href="#" class="flat-link link" data-flat="48"
+                >кв. 48, 1 комн. 32.3 кв. м.</a
+              >
+            </li>
+            <li class="flat-item">
+              <a href="#" class="flat-link link" data-flat="49"
+                >кв. 49, 1 комн. 29.9 кв. м.</a
+              >
+            </li>
+            <li class="flat-item">
+              <a href="#" class="flat-link link" data-flat="50"
+                >кв. 50, 3 комн. 75.2 кв. м.</a
+              >
+            </li>
+          </ul>
+          <p class="modal-alert">Квартиры, отмеченные серым, уже выкуплены</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="about-image" class="modal">
+      <div class="modal-dialog">
+        <button class="modal-close btn btn-icon" data-modal-id="about-image">
+          <img src="images/close.svg" alt="Иконка закрытия модального окна" />
+        </button>
+        <img
+          src="images/moon-1.jpg"
+          alt="Изображение с луной 1"
+          class="modal-img"
+        />
+      </div>
+    </div>
+
+    <div id="rest-place-image" class="modal">
+      <div class="modal-dialog">
+        <button
+          class="modal-close btn btn-icon"
+          data-modal-id="rest-place-image"
+        >
+          <img src="images/close.svg" alt="Иконка закрытия модального окна" />
+        </button>
+        <img
+          src="images/moon-2.jpg"
+          alt="Изображение с луной 2"
+          class="modal-img"
+        />
+      </div>
+    </div>
   </body>
 </html>

@@ -2,6 +2,16 @@
   "name": "moonlit-sea-layout",
   "version": "2.0.0",
   "description": "moonlit-sea-layout on HTML5/CSS",
+  "keywords": [
+    "moonlit-sea",
+    "layout",
+    "html",
+    "css",
+    "surge-sh",
+    "atomic",
+    "oocss"
+  ],
+  "type": "module",
   "main": "",
   "repository": {
     "type": "git",

@@ -1,54 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap');
 @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 
 @import url('variables.css');
 @import url('default.css');
 @import url('atomic.css');
-@import url('header.css');
+@import url('components/logo.css');
 @import url('components/btn.css');
 @import url('components/form.css');
 @import url('components/link.css');
+@import url('components/modal.css');
+@import url('core/header.css');
+@import url('core/main-section.css');
+@import url('core/floor-flat-section.css');
+@import url('core/footer.css');
 
 .content-container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 5rem 0;
-}
-
-.columns-3 > * {
-  width: 30%;
-}
-
-.main-section {
-  padding: 3rem;
-
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/banner.png) center no-repeat;
-}
-
-.logo-small {
-  width: 2rem;
-  height: 2rem;
-}
-
-.logo-big {
-  height: 12rem;
-}
-
-.logo-name {
-  margin-left: 1rem;
-
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
-.subtitle {
-  margin-bottom: 3rem;
-
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.footer {
-  background-color: var(--dark);
 }

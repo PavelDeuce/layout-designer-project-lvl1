@@ -1,0 +1,86 @@
+.high-rise-building {
+  border-radius: 15px;
+}
+
+.high-rise-building .floor {
+  cursor: pointer;
+  opacity: 0;
+
+  transition: 0.2s all;
+}
+
+.high-rise-building .floor:hover {
+  opacity: 1;
+}
+
+.floor.current-floor {
+  opacity: 1;
+}
+
+.choice-floor-counter {
+  margin: 68px 0;
+
+  text-align: center;
+}
+
+.floor-counter {
+  margin: 15px 0;
+
+  color: var(--green);
+  font-weight: bold;
+  font-size: 74px;
+}
+
+.floor-counter-btn-bottom {
+  transform: rotate(180deg);
+}
+
+.modal-image {
+  width: 60%;
+  padding: 50px;
+
+  text-align: center;
+
+  background-color: #ebebeb;
+}
+
+.modal-info {
+  width: 40%;
+  padding: 35px 46px;
+}
+
+.flat-list {
+  margin-top: 55px;
+  padding-left: 0;
+}
+
+.flat-item {
+  margin-bottom: 0.5rem;
+}
+
+.modal-alert {
+  margin-top: 56px;
+
+  font-size: 16px;
+
+  font-style: italic;
+  line-height: 19px;
+}
+
+.modal-image path {
+  cursor: pointer;
+  opacity: 0;
+
+  transition: 0.2s all;
+}
+
+.modal-image path:hover,
+.modal-image .active {
+  opacity: 1;
+}
+
+.modal-counter.counter {
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}

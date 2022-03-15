@@ -6,6 +6,10 @@
   width: 60%;
 }
 
+.columns-3 > * {
+  width: 30%;
+}
+
 .d-flex {
   display: flex;
 }
@@ -36,4 +40,16 @@
 
 .white-bg {
   background-color: var(--white);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.border-radius-15 {
+  border-radius: 15px;
 }

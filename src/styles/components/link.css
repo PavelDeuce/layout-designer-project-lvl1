@@ -6,7 +6,8 @@
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+.link.active {
   color: var(--green);
 
   background-size: 100% 2px;

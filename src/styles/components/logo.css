@@ -1,0 +1,15 @@
+.logo-name {
+  margin-left: 1rem;
+
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.logo-small {
+  width: 2rem;
+  height: 2rem;
+}
+
+.logo-big {
+  height: 12rem;
+}
